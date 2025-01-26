@@ -7,4 +7,4 @@ Find the projects [here](https://roadmap.sh/projects/).
 [Single page CV code](https://github.com/Fergaku/roadmap.sh-projects/blob/main/cv_proyecto.html)
 # Python Projects
 [Number Guessing game Requirements](https://roadmap.sh/projects/number-guessing-game)
-[Number guessing game CODE]()
+[Number guessing game CODE](https://github.com/Fergaku/roadmap.sh-projects/blob/main/cv_proyecto.html)
