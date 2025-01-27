@@ -1,0 +1,64 @@
+/*Styling for all 4 documents*/
+header {display: flex;
+        justify-content: space-between;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: bold;}
+
+nav {flex-grow: 1;}
+nav ul {display: flex;
+        justify-content: space-around;
+        padding:0;
+        list-style-type: none;}
+nav ul li {display: inline-block;}
+
+p {font-family: 'Roboto', sans-serif;}
+h3 {font-family: 'Roboto', sans-serif;}
+h1 {font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+h2 {font-family:'Open Sans', sans-serif;}
+.intro {text-align: center;
+    padding: 10px;
+margin: auto;}
+
+.education ul {font-family: 'Roboto', sans-serif;
+    padding: 30px;}
+.author-quote {font-family: 'Open Sans', sans-serif;
+    font-style: italic;}
+
+.three-columns {display: flex;
+justify-content: space-between;}
+
+.two-columns {display: flex;}
+
+.column {flex: 1;
+        border-radius: 8px;}
+.column h2 {text-align: center;}
+.send-text, .send-mail, .send-name {font-family: 'Roboto', sans-serif;
+    width: 351px;}
+
+    /*Footer styling*/
+.foot p {text-align: center;}
+
+@media screen and (max-width: 680px) {
+    .three-columns {
+        flex-direction: column;
+    }
+
+    .column {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 680px) {
+    .two-columns {
+        flex-direction: column;
+    }
+
+    .column {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+}

@@ -7,8 +7,11 @@
         <meta name="description" content="This is the home page of my website">
         <meta name="keywords" content="home, website">
         <meta name="author" content="Fergaku">
-        <title>Home</title>
-        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans&display=swap" rel="stylesheet">
+        <link href="website_1_styles.css" rel="stylesheet">
+        <title>Home</title>    
     </head>
     <body>
         <header>
@@ -25,47 +28,68 @@
         </nav>
         </header>
         <main>
-            <section class="intro"> 
+            <div class="intro"> 
                 <h1>Frontend Engineer</h1>
                 <p>This is a simple website project.</p>
-            </section>
-
-            <section class="projects">
-                <h2>Projects</h2>
-            </section>
-            <section class="work">
-                <h2>Work Experience</h2>
-                <h3>OpenSource Work</h3>
-                <p>Contributed to 20 opensource projects</p>
-                <p>Visit my <a href="github.com" target="_blank" rel="noopener">Github profile</a>!</p>
-                <h3>roadmap.sh</h3>
-                <p>Completed the frontend projects</p>
-                <p>Visit my <a href="raodmap.sh" target="_blank" rel="noopener">profile</a>!</p>
-            </section>
-            <section class="Education">
-                <h2>Education</h2>
-                <p>Graduated with 3.76 GPA. Won ACME Hackathon. Organized 30 sessions.</p>
-                <p>Courses I took: </p>
-                <ul>
-                    <li>Object Oriented programming</li>
-                    <li>Web Engineering</li>
-                    <li>Artificial Intelligence</li>
-                </ul>
-            </section>
+            </div>
+            <div>
+                <hr>
+            </div>
+            <div class="three-columns">
+                <section class="projects column">
+                    <h2>Projects</h2>
+                    <p>HTML Website</p>
+                    <p>HTML only CV</p>
+                </section>
+                <div>
+                    <hr>
+                </div>
+                <section class="work-exp column">
+                    <h2>Work Experience</h2>
+                    <h3>OpenSource Work</h3>
+                    <p>Contributed to 20 opensource projects</p>
+                    <p>Visit my <a href="github.com" target="_blank" rel="noopener">Github profile</a>!</p>
+                    <h3>roadmap.sh</h3>
+                    <p>Completed the frontend projects</p>
+                    <p>Visit my <a href="raodmap.sh" target="_blank" rel="noopener">profile</a>!</p>
+                </section>
+                <div>
+                    <hr>
+                </div>
+                <section class="education column">
+                    <h2>Education</h2>
+                    <p>Graduated with 3.76 GPA. Won ACME Hackathon. Organized 30 sessions.</p>
+                    <p>Courses I took: </p>
+                    <ul>
+                        <li>Object Oriented programming</li>
+                        <li>Web Engineering</li>
+                        <li>Artificial Intelligence</li>
+                    </ul>
+                </section>
+            </div>
+            <div>
+                <hr>
+            </div>
             <section class="review">
                 <h2>Reviews from my teachers</h2>
-                <blockquote>
-                    <p>John Doe was a brilliant student; always stood out with his assignments</p>
-                    <footer>Jane Doe, Assistant professor</footer>
-                </blockquote>
-                <blockquote>
-                    <p>John Doe was a brilliant student; always stood out with his assignments</p>
-                    <footer>Jane Doe, Assistant professor</footer>
-                </blockquote>
+                <div class="two-columns">
+                    <div class="column">
+                    <blockquote>
+                        <p>John Doe was a brilliant student; always stood out with his assignments</p>
+                        <footer class="author-quote">Jane Doe, Assistant professor</footer>
+                    </blockquote>
+                    </div>
+                    <div class="column">
+                    <blockquote>
+                        <p>John Doe was a brilliant student; always stood out with his assignments</p>
+                        <footer class="author-quote">Jane Doe, Assistant professor</footer>
+                    </blockquote>
+                </div>
+                </div>
             </section>
         </main>
     </body>
-    <footer>
+    <footer class="foot">
         <hr>
         <p>&copy All rights reserved 2025</p>
     </footer>

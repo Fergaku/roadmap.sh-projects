@@ -5,6 +5,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="Fergaku">
         <meta name="keywords" content="contact, message, email">
+        <link href="website_1_styles.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans&display=swap" rel="stylesheet">
         <title>Contact</title>
         
     </head>
@@ -23,22 +27,24 @@
             </nav>
         </header>
         <main>
+        <div class="intro">
             <h1>Contact</h1>
             <p>Send us a message!</p>
+        </div>
             <section class="links">
                 <form action="" method="post">
-                    <input type="text" name="name" placeholder="Name">
+                    <input type="text" name="name" placeholder="Name" class="send-name">
 
-                    <input type="email" name="email" placeholder="Email">
+                    <input type="email" name="email" placeholder="Email" class="send-mail">
 
-                    <textarea name="message" placeholder="Message"></textarea>
+                    <textarea name="message" placeholder="Message" class="send-text"></textarea>
                     
                     <button type="submit">Send message</button>
                 </form>
             </section>
         </main>
     </body>
-    <footer>
+    <footer class="foot">
         <hr>
         <p>&copy All rights reserved 2025</p>
     </footer>
