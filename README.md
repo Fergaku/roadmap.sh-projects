@@ -6,7 +6,7 @@ Find the projects [here](https://roadmap.sh/projects/).
 [Single Page CV requirements](https://roadmap.sh/projects/single-page-cv) |
 [Single page CV code](https://github.com/Fergaku/roadmap.sh-projects/blob/main/cv_proyecto.html)
 
-[HTML Website requirements](https://roadmap.sh/projects/basic-html-website) | [HTML Website Styling requirements](https://roadmap.sh/projects/portfolio-website) |[HTML Website code](https://github.com/Fergaku/roadmap.sh-projects/tree/main/website_1)
+[HTML Website requirements](https://roadmap.sh/projects/basic-html-website) | [HTML Website Styling requirements](https://roadmap.sh/projects/portfolio-website) | [HTML Website code](https://github.com/Fergaku/roadmap.sh-projects/tree/main/website_1)
 # Python Projects
 [Number Guessing game Requirements](https://roadmap.sh/projects/number-guessing-game) |
 [Number guessing game CODE](https://github.com/Fergaku/roadmap.sh-projects/blob/main/cv_proyecto.html)
