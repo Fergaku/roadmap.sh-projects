@@ -15,3 +15,6 @@ Find the projects [here](https://roadmap.sh/projects/).
 
 [Task Manager CLI requirements](https://roadmap.sh/projects/task-tracker) |
 [Task Manager CLI code](https://github.com/Fergaku/roadmap.sh-projects/blob/main/task_manager.py)
+
+[Expense Tracker CLI requirements](https://roadmap.sh/projects/expense-tracker) |
+[Expense Tracker CLI code](https://github.com/Fergaku/roadmap.sh-projects/blob/main/expense_tracker.py)
